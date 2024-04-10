@@ -736,3 +736,105 @@ padding-left: 70px;
     color: #F5F5F5;
     border: none;
 }
+
+.featured-products .arrival{
+  display:flex;
+}
+.featured-products{
+  margin-top:50px;
+}
+
+.box{
+    width: 20px;
+    height: 40px;
+    border-radius: 4px 0px 0px 0px;
+    background: #DB4444;
+    margin-left:110px;
+
+}
+
+.featured-bar{
+  margin-left:15px;
+  margin-top:5px;
+  font-size:25px;
+}
+
+.featured-bar span {
+   color:#DB4444;
+   font-family: sans-serif;
+   font-size:medium;
+}
+
+.new-arrival-section{
+  display: flex;
+  margin-left: 105px;
+}
+
+.new-arrival-section h2{
+  color: #000000;
+  height: 48px;
+  margin-top: 45px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.grid-section{
+  margin-left: 90px;
+  color:#F5F5F5;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.grid-section h4{
+  font-size: 18px;
+}
+.grid-section p{
+  font-size: 12px;
+}
+
+.grid-section a{
+  color:#F5F5F5;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.grid-section .column2{
+  width:530px;
+}
+
+.playstation{
+  background-image: url(/images/playstation.png);
+  height: 511px;
+  width: 530px;
+  background-color: #000000;
+  padding-top: 390px;
+  margin-right: 15px;
+}
+.women{
+  background-image: url(/images/women.png);
+  height: 264px;
+  width: 453px;
+  background-color: #000000;
+  margin-bottom: 20px;
+  padding-top: 140px;
+  padding-left: 15px;
+}
+.speakers{
+  background-image: url(/images/amazon-speakers.png);
+  height: 227px;
+  width: 217px;
+  background-color: #000000;
+  margin-right: 20px;
+  padding-top: 120px;
+  padding-left: 15px;
+  
+}
+.perfume{
+  background-image: url(/images/gucciperfume.png);
+  height: 227px;
+  width: 217px;
+  background-color: #000000;
+  padding-top: 120px;
+  padding-left: 15px;
+}
+
