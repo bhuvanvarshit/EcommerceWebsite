@@ -54,16 +54,18 @@ html,body{
 .nav{
     font-size: 24px;
     text-align: left;
-    padding-left: 150px;
+    padding-left: 105px;
     font-weight: bold;
 }
 .menu{
-    padding-left: 350px;
+    padding-left: 200px;
     
 }
 .menu a{
     padding-right: 40px;
+    color: #000000;
 }
+
 
 form{
     display:flex;
@@ -82,7 +84,6 @@ input[type=search]
     background: transparent;
     margin:0px;
     border: none;
-    font-size: 15px;
 }
 
 input[type=search]:focus{
@@ -90,7 +91,8 @@ input[type=search]:focus{
 }
 
 .search-container{
-    padding-right: 10px;
+  padding-right: 10px;
+  padding-left: 200px;
     
 }
 
@@ -101,12 +103,7 @@ input[type=search]:focus{
     background: transparent;
     margin: 0;
     cursor: pointer;
-    opacity: 0.7;
     border: 1px solid transparent;
-    position:absolute;
-    transform: translateX(350%);
-    padding-left: 35px;
-    
 }
 
 .search-icon{
@@ -117,7 +114,6 @@ input[type=search]:focus{
     background: transparent;
     border: 1px solid transparent;
     transform: translateX(50%);
-    opacity: 0.7;
     position:relative;
     left:-6px;
     top:0px;
@@ -135,7 +131,6 @@ input[type=search]:focus{
     border: 1px solid transparent;
     transform: translateX(50%);
     position:relative;
-    opacity: 0.7;
     cursor: pointer;
     padding-top: 4px;
     font-size: medium;
@@ -414,7 +409,7 @@ hr{
   font-size: 30px;
 }
 .keys{
-  margin-left: 70%;
+  margin-left: 61%;
   margin-top: 30px;
   
 }
@@ -567,8 +562,8 @@ display:flex;
 .banner-section{
     display: flex;
     margin-top:50px;
-    margin-left: 200px;
-    margin-right:350px;
+    margin-left:105px;
+    margin-right:150px;
     padding-top: 15px;
     background-color: #000000;
 }
@@ -615,7 +610,7 @@ display:flex;
 }
 .banner-section .text-section{
   margin-top: 60px;
-  margin-left: 50px;
+  margin-left: 90px;
   margin-bottom: 50px;
 }
 .button-green{
@@ -787,6 +782,7 @@ padding-left: 70px;
 }
 .grid-section h4{
   font-size: 18px;
+  font-weight: bold;
 }
 .grid-section p{
   font-size: 12px;
@@ -838,3 +834,152 @@ padding-left: 70px;
   padding-left: 15px;
 }
 
+.icon-section{
+  margin-left:70px;
+  text-align: center;
+}
+.outer-circle{
+  background-color: grey;
+  height: 90px;
+  width: 90px;
+  border-radius: 150px;
+  margin-left: 160px;
+}
+
+.inner-circle{
+    position: relative;
+    background-color: #000000;
+    height: 60px;
+    width: 60px;
+    border-radius: 150px;
+    margin-top: 60px;
+    top: 15px;
+    left: 15px;
+}
+
+.delivery-icon,.customer-icon,.secure-icon{
+  position: relative;
+  top: 9px;
+}
+.icon-text p{
+  font-size: medium;
+  color:#000000;
+  font-family: sans-serif;
+  opacity:0.7;
+  font-weight:bold;
+
+}
+.icon-text h4{
+  font-weight: bold;
+  color:#000000;
+}
+.footersection{
+  margin-top:270px;
+  background-color: #000000;
+  width: 100%;
+  height:320px;
+  color:#FAFAFA;
+}
+.footersection .row-container .col-md-3{
+ width:20%;
+} 
+.row-container{
+  display: flex;
+  flex-direction: row;
+}
+.support-col-md-3{
+  margin-left:80px;
+}
+.account-col-md-3{
+  margin-left:100px;
+}
+.googleplay{
+  margin-top:-40px;
+}
+.appstore{
+  margin-left:85px;
+  margin-top:-55px;
+}
+.copyright{
+  display: flex;
+  color: #FAFAFA;
+  justify-content: center;
+}
+.copyright-icon{
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+  opacity:0.6;
+  margin-left:-700px;
+  position:relative;
+  top: 280px;
+  left:-780px;
+}
+.copyright p{
+  opacity:0.4;
+  margin-top:280px;
+  margin-left:-780px;
+
+}
+.button-section{
+  margin-top:30px;
+  display:flex;
+  gap:10px;
+  padding-top:170px;
+  margin-left:-280px;
+
+}
+.send-icon{
+  display: inline-block;
+  background:black;
+  border:none;
+  height:20px;
+  width:20px;
+  margin-left:-28px;
+}
+.email{
+  background:border-box;
+  position:relative;
+  height:40px;
+  width:200px;
+  border:1px solid;
+}
+
+/* .footer{
+ padding-left: 50px;
+  padding-top: 80px;
+}
+
+.footer h3, h4,p{
+  color:#F5F5F5;
+}
+.footer h4, p{
+  padding-top:10px;
+}
+.footer input[type=search] {
+  margin: 0px;
+  border: 1px solid #F5F5F5;
+}
+
+.footer button{
+background-color: #000000;
+}
+.email{
+  border: 2px solid;
+  background-color:#F5F5F5;
+  text-indent: 2px;
+  margin-left:10px;
+  position: relative;
+  
+}
+.send-icon{
+  height:20px;
+  width:20px;
+  left:-40px;
+  position: relative;
+  top: -2px;
+}
+
+.support p{
+  padding-top:20px;
+} */
