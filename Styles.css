@@ -303,6 +303,7 @@ hr{
   color: #DB4444;
   font-family: serif;
   font-weight: 400;
+  font-size:18px;
 }
 .sales-section{
   margin-left: 105px;
@@ -312,13 +313,13 @@ hr{
   color: #000000;
   height: 48px;
   font-weight: bold;
-  margin-top: 45px;
+  margin-top: 35px;
   font-size: 30px;
 }
 
 .saletime{
   display: flex;
-  margin-left: 350px;
+  margin-left: 250px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -330,7 +331,9 @@ hr{
 .saletime h4{
   font-weight: bold;
 }
-
+.colon p{
+  color:red;
+}
 .space{
   margin-bottom: 1000px;
 }
@@ -340,7 +343,7 @@ hr{
 }
 
 .arrows{
-  margin-left: 350px;
+  margin-left: 210px;
   margin-top: 30px;
 }
 
@@ -476,9 +479,10 @@ display: block;
   margin-top:-35px;
 }
 
-.month-bar .span{
+.month-bar span{
   font-family: serif;
   font-weight: 400;
+  font-size:18px;
 }
 
 .selling-button{
@@ -643,9 +647,9 @@ padding-left: 70px;
   margin-right:90px;
 }
 
-.buying-section{
- /* margin-right: 30px;*/
-}
+/*.buying-section{
+  margin-right: 30px;
+}*/
 .wishlist-section{
   background-color: #F5F5F5;
   padding: 45px;
@@ -695,9 +699,9 @@ padding-left: 70px;
   margin-left:20px;
 }
 
-.retail-section{
-  /*margin-right: 30px;*/
-}
+/*.retail-section{
+  margin-right: 30px;
+}*/
 .cart-text{
   background-color:black;
   color:white;
@@ -737,6 +741,7 @@ padding-left: 70px;
 }
 .featured-products{
   margin-top:50px;
+  margin-left:110px;
 }
 
 .box{
@@ -744,7 +749,7 @@ padding-left: 70px;
     height: 40px;
     border-radius: 4px 0px 0px 0px;
     background: #DB4444;
-    margin-left:110px;
+   
 
 }
 
@@ -757,7 +762,7 @@ padding-left: 70px;
 .featured-bar span {
    color:#DB4444;
    font-family: sans-serif;
-   font-size:medium;
+   font-size:18px;
 }
 
 .new-arrival-section{
@@ -768,9 +773,10 @@ padding-left: 70px;
 .new-arrival-section h2{
   color: #000000;
   height: 48px;
-  margin-top: 45px;
+  margin-top: 15px;
   font-size: 30px;
   font-family: sans-serif;
+  margin-left:-25px;
 }
 
 .grid-section{
@@ -929,7 +935,7 @@ padding-left: 70px;
   margin-left:-280px;
 
 }
-.send-icon{
+.send-button{
   display: inline-block;
   background:black;
   border:none;
@@ -937,12 +943,18 @@ padding-left: 70px;
   width:20px;
   margin-left:-28px;
 }
+.send-icon{
+  border:none;
+  background:black;
+  margin-left:-20px;
+}
 .email{
   background:border-box;
   position:relative;
   height:40px;
   width:200px;
   border:1px solid;
+  visibility: visible;
 }
 
 /* .footer{
